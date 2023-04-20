@@ -9,6 +9,53 @@
 ranks = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"]
 suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
 
+
+index_ranks = 0 
+index_suits = 0 
+
+# loop do 
+#     if index_ranks == ranks.size 
+#         break
+#     end
+
+#     rank = ranks[index_ranks]
+
+#     puts "#{rank} of #{suits[0]}"
+#     puts "#{rank} of #{suits[1]}"
+#     puts "#{rank} of #{suits[2]}"
+#     puts "#{rank} of #{suits[3]}"
+   
+#     index_ranks = index_ranks + 1
+# end 
+
+
+loop do 
+    if index_ranks == ranks.size 
+        break
+    end
+    rank = ranks[index_ranks]
+ loop do
+    if index_suits == suits.size
+        break
+    end
+    suit = suits[index_suits]
+    puts "#{rank} of #{suit}"
+    index_suits = index_suits + 1
+    end
+    index_ranks = index_ranks + 1
+    index_suits = 0
+end 
+
+# ----------------------------
+# ----------------------------
+# SHORTCUT
+for rank in ranks
+for suit in suits   
+    # do something
+    puts "#{rank} of #{suit}"
+end
+end
+
 # Sample output:
 # 2 of Clubs
 # 2 of Diamonds
