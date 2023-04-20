@@ -4,7 +4,7 @@
 
 # In Ruby, there are different *types* of data:
 
-# Numbers
+# Numbers 
 puts 3
 puts 2
 

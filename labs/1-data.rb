@@ -2,7 +2,7 @@
 # is the same as where this file is located and then run:
 # ruby 1-data.rb
 
-# EXERCISE
+# EXERCISE 
 # Play craps (roll two dice)
 # When executed, this program should print out two random
 # numbers, one on each line, simulating the roll of two

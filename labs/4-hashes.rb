@@ -43,3 +43,31 @@ puts value
 # 6. output
 puts "1 Bitcoin is valued at $#{rate} USD"
 puts "Your Bitcoin is worth $#{value}."
+
+# ---------------------------------------------------------------
+# ---------------------------------------------------------------
+# ---------------------------------------------------------------
+# TERMINAL CODE
+
+# gitpod /workspace/Class4-ruby/labs (main) $ ruby 4-hashes.rb
+# How much bitcoin do you have?
+# 4
+# 28947.6707
+# gitpod /workspace/Class4-ruby/labs (main) $ 
+# gitpod /workspace/Class4-ruby/labs (main) $ ruby 4-hashes.rb
+# How much bitcoin do you have?
+# 4
+# 28949.4418
+# 115797.7672
+# gitpod /workspace/Class4-ruby/labs (main) $ ruby 4-hashes.rb
+# How much bitcoin do you have?
+# 1
+# 28949.4418
+# 28949.4418
+# gitpod /workspace/Class4-ruby/labs (main) $ ruby 4-hashes.rb
+# How much bitcoin do you have?
+# 4
+# 28943.0526
+# 115772.2104
+# 1 Bitcoin is valued at $28943.0526 USD
+# Your Bitcoin is worth $115772.2104.

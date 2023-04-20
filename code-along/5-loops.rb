@@ -9,3 +9,16 @@
 
 # Loop through tacos
 # tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+
+
+index = 0 
+
+loop do 
+    if index == 5 
+        break                   ## break means stop
+    end
+   
+    puts "tacos"
+   
+    index = index + 1
+end
