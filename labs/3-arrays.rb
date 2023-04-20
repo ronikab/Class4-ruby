@@ -10,7 +10,7 @@
 # Programmatically combine the two arrays into a single list,
 # sort the result (alphabetically), and write it to the screen.
 # If the two lists contain the same item, only show it once!
-# Lastly, display each item in the list prepended with "buy ".
+# Lastly, display each item in the list prepended with "buy ". 
 
 # HINTS
 # Learn to read the documentation!
