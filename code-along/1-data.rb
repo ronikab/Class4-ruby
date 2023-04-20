@@ -40,7 +40,7 @@ puts food * number
 # Combine strings and variables
 greeting = "heyyyy"
 
-puts "#{greeting}, world!" #in the curly brackets add a variable
+puts "#{greeting}, world!" #in the curly brackets add variable
 
 welcome_message = "#{greeting}, world!" # underscore to separate words // don't use capital letters
 
